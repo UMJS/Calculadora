@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:rgb(116, 224, 209)
+
+  /* background-image: url("https://vidasemparedes.com.br/wp-content/uploads/2021/09/oquefazeremsalvador-vidasemparedes-18-1024x768.jpg"); */
+}
+
+
+
+input{
+  color:rgb(12, 12, 12);
+  padding:17px;
+  outline:none;
+  font-size: 30px;
+  font-family: 'Bebas Neue', cursive;
+  border-radius: 25%;
+}
+
+.maincolor {
+  background: #3D94F6;
+  background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+  background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+  background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+  background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+  background-image: -webkit-gradient(to bottom, #3D94F6, #1E62D0);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #000000;
+  -webkit-box-shadow: 1px 1px 20px 0 #FFFFFF;
+  -moz-box-shadow: 1px 1px 20px 0 #FFFFFF;
+  box-shadow: 1px 1px 20px 0 #FFFFFF;
+  border: double #337FED 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.maincolor:hover {
+  border: solid #337FED 1px;
+  background: #1E62D0;
+  background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.num{
+  width: 64px;
+  height: 67px;
+}
+
+.text{
+  width: 160px;
+  height: 26px;
+  border-radius: 22px;
+  letter-spacing: 5px;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.text1{
+  width: 24px;
+  height: 26px;
+  border-radius: 22px;
+  letter-spacing: 5px;
+  text-align: center;
+  margin-bottom:12px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.main{
+  display: inline-block;
+}
+
+.blue{
+  background-color:#0cd0cd;
+}
+
+.pin{
+  background-color:#cf1596;
+}
+
+.gre{
+  background-color:#aad800;
+}
+
+.pur{
+  background-color:#8c52f0
+}
+
+.ora{
+  background-color:#fcb707;
+}
+
